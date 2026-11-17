@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Bila mengakses aset di folder public/assets
+    RewriteRule ^assets/(.*)$ public/assets/$1 [L]
+    # Bila URL bukan file / folder yang ada, teruskan ke index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>
+

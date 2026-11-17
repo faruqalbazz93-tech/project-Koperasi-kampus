@@ -1,0 +1,16 @@
+# Storage logs & sqlite database
+storage/*.log
+storage/*.sqlite
+!storage/.gitkeep
+
+# Environment & OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# IDE & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
