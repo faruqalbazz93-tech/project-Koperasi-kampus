@@ -1,6 +1,6 @@
 # Sistem Koperasi Kampus STMIK IKMI
 ### E-Commerce Koperasi & AI Academic Engine
-
+Mukhammad Faruq Albassemi_41257219
 Aplikasi web terpadu untuk **Koperasi Kampus STMIK IKMI** yang menggabungkan pengelolaan kebutuhan perkuliahan (ATK, Atribut Almamater, Buku Referensi) dengan akselerator pembelajaran cerdas berbasis AI (**AI Quiz Generator** & **AI Academic Explainer**).
 
 ---
